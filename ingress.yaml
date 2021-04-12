@@ -6,7 +6,7 @@ metadata:
   name: single-default-backend-ingress
   namespace: flux-test
   annotations:
-    fluxcd.io/ignore: "false"
+    fluxcd.io/ignore: "true"
 #spec:
 #  backend:
 #    serviceName: nginxhello
