@@ -1,0 +1,1 @@
+{"jobID":"899ca09b-717b-3ffd-310f-0c421cf8d72b","spec":{"type":"policy","cause":{"Message":"","User":"Gunther Boeckmann \u003cguntherboeckmann@gmail.com\u003e"},"spec":{"flux-test:deployment/nginxhello":{"add":{"tag.nginxhello":"semver:~1.19.x"},"remove":{}}}},"result":null}
