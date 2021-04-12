@@ -1,4 +1,4 @@
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   labels:
@@ -11,7 +11,6 @@ metadata:
 #  backend:
 #    serviceName: nginxhello
 #    servicePort: 80
-
 spec:
   rules:
   - host: nginxhello.local
