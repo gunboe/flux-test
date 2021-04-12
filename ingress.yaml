@@ -4,6 +4,7 @@ metadata:
   labels:
     app: nginxhello
   name: single-default-backend-ingress
+  namespace: flux-test
   annotations:
     fluxcd.io/ignore: "false"
 spec:

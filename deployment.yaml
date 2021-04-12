@@ -5,6 +5,7 @@ metadata:
   labels:
     app: nginxhello
   name: nginxhello
+  namespace: flux-test
   annotations:
     fluxcd.io/ignore: "false"
     fluxcd.io/automated: "false"
