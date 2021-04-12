@@ -7,7 +7,21 @@ metadata:
   namespace: flux-test
   annotations:
     fluxcd.io/ignore: "false"
+#spec:
+#  backend:
+#    serviceName: nginxhello
+#    servicePort: 80
+
 spec:
-  backend:
-    serviceName: nginxhello
-    servicePort: 80
+  rules:
+  - host: nginxhello.local
+    http:
+      paths:
+      - backend:
+          service:
+            name: nginxhello
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+
